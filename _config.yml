@@ -675,16 +675,19 @@ facebook_sdk:
   fb_admin:     # <user_id>
   like_button:  true
   webmaster:    true
+  like_layout:  button_count  # standard, box_count, button_count, button
+  like_size:    large         # small, large
+  data_share:   true          # true, false
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
   enable:       true
-  num_of_posts: 5            # Minimum posts num is 1
-  width:        100%         # Default width is 550px
-  scheme:       light        # Default scheme is light (light or dark)
-  order_by:     reverse_time # social, reverse_time, time
+  num_of_posts: 5             # Minimum posts num is 1
+  width:        100%          # Default width is 550px
+  scheme:       light         # Default scheme is light (light or dark)
+  order_by:     reverse_time  # social, reverse_time, time
   #post_meta_order: 0
 
 # Star rating support to each article.

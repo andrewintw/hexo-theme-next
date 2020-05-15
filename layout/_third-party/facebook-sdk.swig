@@ -3,8 +3,8 @@
     function fbAsyncInit() {
       FB.init({
         appId  : '{{ theme.facebook_sdk.app_id }}',
-        xfbml  : true,
-        version: 'v3.3'
+        xfbml  : 1,
+        version: 'v7.0'
       });
     }
     (function(d, s, id) {
