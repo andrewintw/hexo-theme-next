@@ -15,7 +15,8 @@ hexo.extend.filter.register('theme_inject', injects => {
        data-href="{{ page.permalink }}"
        data-numposts="{{ theme.facebook_comments_plugin.num_of_posts }}"
        data-width="{{ theme.facebook_comments_plugin.width }}"
-       data-colorscheme="{{ theme.facebook_comments_plugin.scheme }}">
+       data-colorscheme="{{ theme.facebook_comments_plugin.scheme }}"
+	   data-order-by="{{ theme.facebook_comments_plugin.order_by }}">
     </div>
   </div>
   `, {

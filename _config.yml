@@ -670,20 +670,21 @@ gitalk:
 
 # Facebook SDK Support
 facebook_sdk:
-  enable:       false
-  app_id:       # <app_id>
+  enable:       true
+  app_id:       251328089410373 # <app_id>
   fb_admin:     # <user_id>
-  like_button:  # true
-  webmaster:    # true
+  like_button:  true
+  webmaster:    true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # Minimum posts num is 1
-  width:        100%  # Default width is 550px
-  scheme:       light # Default scheme is light (light or dark)
+  enable:       true
+  num_of_posts: 5            # Minimum posts num is 1
+  width:        100%         # Default width is 550px
+  scheme:       light        # Default scheme is light (light or dark)
+  order_by:     reverse_time # social, reverse_time, time
   #post_meta_order: 0
 
 # Star rating support to each article.
