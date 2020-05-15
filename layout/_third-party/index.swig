@@ -1,5 +1,6 @@
 {% include 'baidu-push.swig' %}
 
+{% include 'facebook-sdk.swig' %}
 {% include 'rating.swig' %}
 
 {%- if theme.algolia_search.enable %}
